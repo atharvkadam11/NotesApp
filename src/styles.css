@@ -1,0 +1,99 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #f81200;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.note-form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.note-form input,
+.note-form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.note-form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.deletebutton {
+  position: relative;
+  background: #f81200;
+  color: #fff;
+  border: none;
+  border-radius: 20%;
+  width: 60px;
+  height: 40px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.notes {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.notes-list {
+  position: relative;
+  width: 100px;
+  margin: 10px 20px auto;
+  background: #fff;
+}
